@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta charset="utf-8">
+<title>堵路移车版本1_1</title>
+<link href="css/style_dlyc.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/wrap.css"/>
+</head>
+
+<body>
+<ul class="dlyc1_bot">
+	<li>拍照</li>
+	<li><a id="sjxc">从手机相册中选择</a></li>
+	<li style="margin-top: 5px;">取消</li>
+</ul>
+
+<div class="dlyc1_mask"></div>	
+<div id="photo" style="width: 100%; height: 100%; background: #FFFFFF; position: absolute; left: 0px; display: none; top: 0px; z-index: 5;">
+<div class="dlyc2_tit">
+	照片
+	<span class="qx">取消</span>
+</div>
+<ul class="dlyc2_main">
+	<li>
+		<div class="check">	
+			<a class="dlyc1_3href"></a>
+		</div>
+		<a class="dlyc1_3href"><img src="images/car.png" /></a>
+	</li>
+	
+</ul>
+</div>
+	
+<div class="dlyc1_top">
+	<div class="dlyc1_top_lf">
+		<a id="dlyc1_img"><img src="images/dlyc_nopic.png" /></a>
+	</div>
+	<div class="dlyc1_top_rt">
+		<p class="text1">上传堵路车辆现在照片</p>
+		<p class="text2">图片：清晰；牌照清楚</p>
+	</div>
+	
+</div>
+
+<div id="dlyc1_3" style="width: 100%; height: 200%; background: #FFFFFF; position: absolute; left: 0px; top: 0px; display: none;  z-index: 6;">
+	<div class="dlyc1_top">
+	<div class="dlyc1_top_lf">
+		<a id="dlyc1_img"><img src="images/car.png" /></a>
+	</div>
+	<div class="dlyc1_top_rt">
+		<p class="text1">上传堵路车辆现在照片</p>
+		<p class="text2">图片：清晰；牌照清楚</p>
+	</div>
+</div>
+	
+	
+<div class="lxr">
+    <div class="lxr_left">
+      <div class="lxr_text">车牌号：</div>
+    </div>
+    <div class="lxr_right">
+      <input name="" type="text" value="吉A BK828" placeholder="">
+    </div>
+</div>
+
+<div class="lxr">
+    <div class="lxr_left">
+      <div class="lxr_text">地址：</div>
+    </div>
+    <div class="lxr_right">
+      <input name="" type="text" value="吉林北站停车场" placeholder="">
+    </div>
+</div>
+<div class="dlyc_btn"><a href="dlyc1_4.html">下一步</a></div>
+</div>
+<div class="lxr">
+    <div class="lxr_left">
+      <div class="lxr_text">车牌号：</div>
+    </div>
+    <div class="lxr_right">
+      <input name="" type="text" value="" placeholder="">
+    </div>
+</div>
+
+<div class="lxr">
+    <div class="lxr_left">
+      <div class="lxr_text">地址：</div>
+    </div>
+    <div class="lxr_right">
+      <input name="" type="text" value="" placeholder="">
+    </div>
+</div>
+<div class="dlyc_btn"><a>下一步</a></div>
+</body>
+<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#dlyc1_img").click(function(){
+			$(".dlyc1_mask").show();
+			$(".dlyc1_bot").slideToggle();
+			
+		})
+		$("#sjxc").click(function(){
+			$(".dlyc1_mask").hide();
+			$(".dlyc1_bot").hide();
+			$("#photo").show();
+		})
+		$(".dlyc1_3href").click(function(){
+			$(".dlyc1_mask").hide();
+			$(".dlyc1_bot").hide();
+			$("#photo").hide();
+			$("#dlyc1_3").show();
+		})
+		
+	})
+</script>
+</html>

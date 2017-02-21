@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta charset="utf-8">
+<title>地图服务（版1）</title>
+<link href="css/style_dtfw.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="bg_a">
+  <div class="nav_a">
+    <ul>
+      <li id="li_one"><img src="images/icon_police.png" />
+      <div class="img_mask">
+        <img src="images/icon_police_red.png"  alt=""/> </div>
+      </li>
+      <li><img src="images/icon_car.png" /></li>
+      <li><img src="images/icon_oil.png"/></li>
+      <li><img src="images/icon_bank.png"/></li>
+    </ul>
+  </div>
+  <div class="zuobiao add_1">1</div>
+  <div class="zuobiao add_2">2</div>
+  <div class="zuobiao add_3">3</div>
+  <div class="zuobiao add_4">4</div>
+  <div class="zuobiao add_5">5</div>
+  <div class="zuobiao add_6">6</div>
+  <div class="zuobiao add_7">7</div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
+<script type="text/javascript">
+$(function(){
+	$("#li_one").click(function(){
+		$(this).addClass("hov");
+		$(".zuobiao").show();
+	})	
+})
+
+</script>
+</body>
+</html>

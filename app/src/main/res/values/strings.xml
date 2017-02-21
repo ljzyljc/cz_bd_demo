@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">cz_bd_demo</string>
+    <string name="walk_plan">步行方案</string>
+    <string name="drive_plan">驾车方案</string>
+    <string name="bus_plan">公交方案</string>
+    <string name="more">更多</string>
+    <string name="closed">关闭</string>
+    <string name="surrounding_info">雷达扫描到您屏幕范围内有</string>
+    <string name="detail">详情</string>
+    <string name="pop_route">路径规划</string>
+    <string name="last_page">上一页</string>
+    <string name="next_page">下一页</string>
+    <string name="init_error">初始化错误</string>
+    <string name="need_correct_condition">输入正确的检索条件！</string>
+    <string name="need_correct_mapkey">授权失败</string>
+    <string name="cal_rout_fail">路径规划失败</string>
+    <string name="sorry_about_noresult">抱歉，未找到结果</string>
+    <string name="get_location_first">请先定位成功</string>
+    <string name="locating">正在定位....</string>
+    <string name="my_positon">我的位置</string>
+    <string name="location_succeed">成功，查看详情页面</string>
+</resources>

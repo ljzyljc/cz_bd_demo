@@ -1,0 +1,42 @@
+@charset "utf-8";
+*{ margin:0; padding:0;}
+body { font-family:"微软雅黑"; width:100%; height:100%;}
+ul li { list-style:none; display:block;}
+html{font-size:62.5%; width:100%; height:100%;}
+
+/*地图服务（版1）*/
+.bg_a { width:100%; height:100%; display:block; background:url(../images/map01.jpg) no-repeat 100% 100%; background-size:100% 100%; position:relative;}
+.nav_a { width:100%; position:absolute; bottom:3%;}
+.nav_a ul li { width:15%; height: 10%; border:2px solid #6db3e6; border-radius:10px; float:left; margin-left:4%; display:block; padding:2%;}
+.nav_a ul li img { display:block; width:100%; height:100%;}
+.nav_a ul li .img_mask{ display:none}
+.nav_a ul li.hov{ position:relative; border:2px solid #f54336;border-radius:10px; overflow:hidden }
+.nav_a ul li.hov .img_mask{ width:100%; height:100%; position:absolute; left:0px; top:0px;background:#FFF; display:block;}
+.nav_a ul li.hov .img_mask img { display:block; width:100%; height:100%;}
+.zuobiao { background:url(../images/icon_zuobiao.png) no-repeat 100% 100%; width:20px; height:30px; font-size:1.0rem; line-height:20px; color:#fff; text-align:center; display:none;}
+.add_1 { position:absolute; top:65%; right:42%;}
+.add_2 { position:absolute; top:24%; right:27%;}
+.add_3 { position:absolute; top:9%; right:43%;}
+.add_4 { position:absolute; bottom:25%; left:27%;}
+.add_5 { position:absolute; bottom:20%; left:32%;}
+.add_6 { position:absolute; bottom:38%; left:56%;}
+.add_7 { position:absolute; top:65%; right:2%;}
+
+
+/*地图服务（版2）*/
+.bg_b { width:100%; height:100%; display:block; background:url(../images/map02.jpg) no-repeat 100% 100%; background-size:100% 100%; position:relative;}
+.nav_b { position:absolute; top:23%; right:0; width:24%;}
+.nav_b ul li { height:35px; background:#c3c2c2; font-size:1.4rem; line-height:35px; color:#fff; display:block; text-align:center; margin-bottom:10%;}
+.nav_b ul li:hover { background:#ea9862;}
+.zuobiao_a { background:url(../images/icon_zuobiao.png) no-repeat 100% 100%; width:20px; height:30px; font-size:1.0rem; line-height:20px; color:#fff; text-align:center; display:none;}
+.add_a { position:absolute; top:55%; right:43%;}
+.add_b { position:absolute; top:30%; right:33%;}
+.add_c { position:absolute; top:63%; right:37%;}
+.add_d { position:absolute; top:75%; right:58%;}
+.add_e { position:absolute; top:41%; left:27%;}
+.add_f { position:absolute; top:27%; left:42%;}
+.add_g{ position:absolute; top:8%; left:74%;}
+
+
+
+

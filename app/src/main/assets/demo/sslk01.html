@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta charset="utf-8">
+<title>实时路况（版1）</title>
+<link href="css/style_sslk.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="bg_pic">
+  <div class="box_a">
+    <div class="lk_tab">
+      <div class="tab_sslk">实时路况</div>
+      <div class="tab_lkyc">路况预测</div>
+    </div>
+    <div class="yzyd_box">严重拥堵</div>
+    <div class="yj_box">拥挤</div>
+    <div class="rx_box">绕行</div>
+    <div class="ct_box">畅通</div>
+    <div class="icon" id="icon_hov"><img src="images/icon_close.png" /></div>
+  </div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
+<script type="text/javascript">
+$(function(){
+	$("#icon_hov").click(function(){
+		$(".box_a").hide();
+	})	
+})
+
+</script>
+</body>
+</html>

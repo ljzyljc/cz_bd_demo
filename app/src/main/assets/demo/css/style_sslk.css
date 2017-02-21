@@ -1,0 +1,37 @@
+@charset "utf-8";
+*{ margin:0; padding:0;}
+body { font-family:"微软雅黑"; width:100%; height:100%;}
+ul li { list-style:none; display:block;}
+html{font-size:62.5%; width:100%; height:100%;}
+
+/*实时路况版本2*/
+.bg { width:100%; height:100%; display:block; background:url(../images/map03.jpg) no-repeat 100% 100%; background-size:100% 100%; position:relative;}
+.bg_a { width:100%; height:100%; display:block; background:url(../images/map04.jpg) no-repeat 100% 100%; background-size:100% 100%; position:relative; display:none;}
+.box { position:absolute; bottom:0; width:100%; height:40px;}
+.ct, .yd { width:48%; height:40px; background:#00b400; border-radius:5px; float:left; font-size:1.4rem; color:#fff; line-height:40px; text-align:center; display:block;}
+.yd { background:#ffa426;float:right;}
+
+
+
+/*实施路况版本1*/
+.bg_pic { width:100%; height:100%; display:block; background:url(../images/map05.jpg) no-repeat 100% 100%; background-size:100% 100%; position:relative; float:left;}
+.box_a { width:94%; height:55px; background:#fff; margin:15px auto 0 auto;}
+.lk_tab { width:36%; height:24px; float:left; margin-top:14px; margin-left:2%; border:1px solid #d0d0d0; border-radius:5px;}
+.tab_sslk { background:#f1f1f1; height:24px; line-height:24px; text-align:center; width:49%; font-size:1.0rem; font-weight:bold; border-right:1px solid #d0d0d0; float:left; border-top-left-radius:5px; border-bottom-left-radius:5px;}
+.tab_lkyc { height:24px; line-height:24px; text-align:center; width:50%; font-size:1.0rem; float:left;}
+.yzyd_box { width:18%; height:20px; background:#b90000; border-radius:5px; float:left; margin-left:2%; margin-top:17px; color:#fff; text-align:center; line-height:20px; font-size:1.0rem;}
+.yj_box, .rx_box, .ct_box { width:10%; height:20px; background:#f33131; border-radius:5px; float:left; margin-left:2%; margin-top:17px; color:#fff; text-align:center; line-height:20px; font-size:1.0rem;}
+.rx_box { background:#ff9c15;}
+.ct_box { background:#0dbc00;}
+.icon { width:100%; height:100%; display:block;}
+.icon img { position:absolute; top:4%; right:4%; display:block;}
+
+
+
+/*实时路况（版3）*/
+.sslk_box { width:90%; margin:20px auto 0 auto; border:1px solid #d0d0d0; border-radius:5px;}
+.sslk_text_red, .sslk_text_yellow, .sslk_text_green { font-size:1.4rem; color:#b90000; line-height:22px; width:95%; margin:5% auto; display:block;}
+.sslk_text_yellow { color:#ff9c15;}
+.sslk_text_green { color:#0dbc00;}
+
+

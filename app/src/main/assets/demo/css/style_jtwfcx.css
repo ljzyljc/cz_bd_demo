@@ -1,0 +1,48 @@
+@charset "utf-8";
+*{ margin:0; padding:0;}
+body { font-family:"微软雅黑"; width:100%; height:100%;}
+ul li { list-style:none; display:block;}
+html{font-size:62.5%; width:100%; height:100%;}
+
+/*交通违法查询（版1）*/
+.cph, .cjh { width:94%; height:30px; margin:20px auto 0 auto; border:1px solid #d0d0d0; border-radius:5px;}
+.cph_l, .cjh_l, .fdjh_l { width:30%; height:30px; line-height:30px; text-align:right; font-size:1.4rem; font-weight:bold; float:left;}
+.cph_m { width:15%; height:30px; line-height:30px; text-align:center; font-size:1.4rem; font-weight:bold; float:left;}
+.cph_m_a { width:35%; height:30px; line-height:30px; text-align:center; font-size:1.4rem; font-weight:bold; float:left; float:left;}
+.cph_m_b { width:65%; height:30px; line-height:30px; float:left;}
+.cph_m_text { width:45%; font-size:1.4rem; font-weight:bold; margin-left:10%; float:left;}
+.cph_m_pic { width:45%; float:left;}
+.cph_r { width:50%; height:30px; float:left;}
+.cph_r input, .cph_r_01 input, .cjh_r input, .fdjh_r input { width:100%; height:30px; line-height:30px; border:0px; border-radius:5px; text-indent:2%;}
+.cjh_r, .fdjh_r { width:70%; height:30px; float:left;}
+
+.wfcx_btn { width:94%; height:30px; background:#814e20; border-radius:5px; margin:20px auto; font-size:1.4rem; text-align:center; line-height:30px;}
+.wfcx_btn a { color:#fff; display:block; text-decoration:none;}
+
+
+/*交通违法查询（版1）列表页*/
+.wfcx_box { width:90%; margin:20px auto 0 auto; border:1px solid #d0d0d0; border-radius:5px;}
+.wfcx_text { font-size:1.4rem; color:#b90000; line-height:22px; width:95%; margin:5% auto; display:block;}
+
+
+
+/*交通违法查询（版2）*/
+.cph_m01 { width:25%; height:30px; line-height:30px; text-align:center; font-size:1.4rem; font-weight:bold; float:left;}
+.cph_m01_a { width:35%; height:30px; line-height:30px; text-align:center; font-size:1.4rem; font-weight:bold; float:left; float:left;}
+.cph_m01_b { width:65%; height:30px; line-height:30px; float:left;}
+.cph_m01_text { width:70%; font-size:1.4rem; font-weight:bold; float:left;}
+.cph_m01_pic { width:25%; float:left;}
+.cph_r_01 { width:45%; height:30px; float:left;}
+.fdjh { width:94%; height:30px; margin:20px auto 0 auto; border:1px solid #d0d0d0; border-radius:5px;}
+.wfcx01_btn { width:94%; height:30px; background:#2BA4E6; border-radius:5px; margin:20px auto; font-size:1.4rem; text-align:center; line-height:30px;}
+.wfcx01_btn a { color:#fff; display:block; text-decoration:none;}
+
+
+
+/*交通违法查询（版1）详细页*/
+.wfcx02_box { width:94%; height:140px; margin:20px auto 0 auto;}
+.wfcx02_box_l { width:40%; height:100px; background:#06C; margin-top:20px; float:left;}
+.wfcx02_box_l img { width:100%; height:100%;}
+.wfcx02_box_r { width:50%; float:left; margin-top:10%; margin-left:5%; font-size:1.4rem; font-weight:bold;}
+
+

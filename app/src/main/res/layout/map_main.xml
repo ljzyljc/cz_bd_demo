@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relative_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/MapView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="true" />
+
+        <RelativeLayout
+            android:id="@+id/bottom_relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@mipmap/half_transparent">
+
+            <TextView
+                android:id="@+id/txt_surrounding_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:text="@string/surrounding_info"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_surrounding_info"
+                android:layout_marginTop="10dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_police_dept_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="15dp"
+                        android:visibility="visible"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/rb_police_dept_switch"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:button="@drawable/police_station_xml"
+                            android:checked="false"
+                            android:clickable="false" />
+                    </RelativeLayout>
+                    <!-- 车管所 -->
+                    <RadioGroup
+                        android:id="@+id/radio_group"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_vehicle_administration"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="15dp"
+                            android:button="@drawable/vehicle_administration_xml" />
+                        <!-- 加油站 -->
+                        <RadioButton
+                            android:id="@+id/rb_fueling_station"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginRight="15dp"
+                            android:button="@drawable/fueling_station_xml" />
+                        <!-- 公交站 -->
+                        <RadioButton
+                            android:id="@+id/rb_bus_station"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginRight="15dp"
+                            android:button="@drawable/bus_station_xml" />
+                        <!-- 银行 -->
+                        <RadioButton
+                            android:id="@+id/rb_bank"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginRight="15dp"
+                            android:button="@drawable/bank_xml" />
+                        <!-- 酒店 -->
+                        <RadioButton
+                            android:id="@+id/rb_hotel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginRight="15dp"
+                            android:button="@drawable/hotel_xml" />
+                        <!-- 公厕 -->
+
+                        <RadioButton
+                            android:id="@+id/rb_toilet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginRight="15dp"
+                            android:button="@drawable/toilet_xml" />
+                        <!-- 超市 -->
+                        <RadioButton
+                            android:id="@+id/rb_supermarket"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginRight="15dp"
+                            android:button="@drawable/supermarket_xml" />
+                    </RadioGroup>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/btn_loc_req"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottom_relative"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/btn_loc_xml"
+            android:textColor="#FF000000" />
+
+        <ImageView
+            android:id="@+id/img_full_screen"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/full_screen_xml"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottom_relative"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dip"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_enlarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_zoomin_xml" />
+
+            <ImageView
+                android:id="@+id/img_narrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_zoomout_xml" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/data_list"
+            android:layout_width="230dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/poi_list_bg"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/golden"
+            android:fadingEdge="none"
+            android:visibility="gone"></ListView>
+
+        <LinearLayout
+            android:id="@+id/police_dept_wrap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottom_relative"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/police_dept_wrap"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/relative_police_office"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="6dp">
+
+                <RadioButton
+                    android:id="@+id/rb_police_office"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/police_station_xml"
+                    android:gravity="center_horizontal"
+                    android:text="公安局"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/relative_police_pcs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="6dp">
+
+                <RadioButton
+                    android:id="@+id/rb_police_pcs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/radio_paichusuo_xml"
+                    android:gravity="center_horizontal"
+                    android:text="派出所"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/relative_police_station"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="6dp">
+
+                <RadioButton
+                    android:id="@+id/rb_police_station"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/radio_jws_xml"
+                    android:gravity="center_horizontal"
+                    android:text="警务室"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

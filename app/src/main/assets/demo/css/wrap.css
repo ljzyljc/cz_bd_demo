@@ -1,0 +1,38 @@
+/*堵路移车第一版*/
+a{text-decoration: none;}
+.dlyc1_top{width: 100%; padding: 15px; overflow: hidden; box-sizing: border-box; border-bottom: 1px solid #d0d0d0;}
+.dlyc1_top_lf{width: 25%; float: left;}
+.dlyc1_top_lf img{width: 100%;}
+.dlyc1_top_rt{width: 70%; float: left; margin-left: 5%; line-height: 30px;}
+.dlyc1_top_rt .text1{font-size: 16px;}
+.dlyc1_top_rt .text2{font-size: 14px;}
+.dlyc1_mask{width: 100%; height: 100%; background: rgba(0,0,0,0.15); display: none; position: fixed; left: 0px; top: 0px; z-index: 1; display: none;}
+.dlyc1_bot{width: 100%; position: fixed; left: 0px; bottom: 0px; z-index: 2; display: none;}
+.dlyc1_bot li{height: 50px; background-color: #FFFFFF; width: 100%; float: left; line-height: 50px; text-align: center; font-size: 16px; color: #000; border-bottom: 1px solid #d5d5d5;}
+.dlyc1_bot li a{ color: #000; }
+/*堵路移车第二版*/
+.dlyc2_tit{width: 100%; float: left; height: 50px; line-height: 50px; text-align: center; background-color: #48484b; font-size: 16px; color: #FFFFFF;}
+.dlyc2_tit .qx{float: right; font-size: 14px; margin-right: 5px; cursor: pointer;}
+.dlyc2_main{width: 100%; float: left;}
+.dlyc2_main li{width: 24%; float: left; position: relative; margin-left: 1%; margin-top: 1%;}
+.dlyc2_main li img{width: 100%;}
+.dlyc2_main li .check{ width: 20px; height: 20px; background: url(../images/checked.png); background-size: 20px 20px; position: absolute; top: 5px; right: 5px;}
+.dlyc2_main li:hover .check{background: url(../images/checked_green.png);background-size: 20px 20px;}
+.dlyc2_main li .check a{display: block; width: 100%; height: 100%;}
+.dlyc2_bot_wrap{width: 100%; border-top: 1px solid #ccc; float: left;margin-top: 30px; padding: 15px 30px; box-sizing: border-box;}
+.dlyc2_bot{width: 100%;  float: left; margin-top: 10px; }
+.dlyc2_bot_lf{width: 25%; float: left;}
+.dlyc2_bot_lf img{width: 100%;}
+.dlyc2_bot_rt{width: 70%; float: left; margin-left: 5%; line-height: 30px;}
+.dlyc2_bot_rt .text1{font-size: 16px;}
+.dlyc2_bot_rt .text2{font-size: 14px; color: #FFFFFF; float: right; background-color: #78be68; border-radius: 5px; padding:1px 3px; display: inline-block;}
+.dlyc2_bot_rt .text2 a{display: block; color: #FFFFFF;}
+/*堵路移车第三版*/
+.dlyc3_mid{width:94%; margin:19px auto 0 auto; overflow: hidden;}
+.dlyc3_mid_lf{width: 30%; float: left;}
+.dlyc3_mid_lf .text{ font-size:1.4rem; height:30px; line-height:30px; float:right; font-weight:bold;}
+.dlyc3_mid_rt{width: 70%; float: left;}
+.dlyc3_mid_rt img{width: 50%; float: left; margin-left: 3%;}
+.dlyc3_mid_rt p{width: 100%; float: left; height: 30px; line-height: 30px;margin-top: 10px;}
+.dlyc3_mid_rt .addimg{ font-size: 14px; background-color: #78be68;  color: #FFFFFF; position: relative; left: 30px; border-radius: 3px; padding: 5px 10px;}
+.dlyc3_mid_rt .addimg a{color: #FFFFFF;}

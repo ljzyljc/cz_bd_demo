@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:background="@drawable/popup"
+              android:padding="15dp">
+    <TextView
+            android:id="@+id/tv_cgs_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/callout_title"
+            android:textSize="18sp"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+        <TextView
+                android:id="@+id/tv_cgs_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地址：dgfhjkl;"
+                android:maxEms="15"
+                android:textColor="@color/white"/>
+    </LinearLayout>
+    <Button
+            android:id="@+id/btn_navi_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#504c718d"
+            android:padding="3dp"
+            android:text="去这里"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"/>
+</LinearLayout>

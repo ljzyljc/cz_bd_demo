@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_channel_title">
+        <item>消息</item>
+        <item>新闻</item>
+        <item>桌面</item>
+    </string-array>
+    <string-array name="roadbroadcast_filter_items">
+        <item>畅通</item>
+        <item>行车缓慢</item>
+        <item>拥堵</item>
+    </string-array>
+    <string-array name="search_item">
+        <item>公安机关</item>
+        <item>公安驻地</item>
+        <item>派出所</item>
+        <item>警务室</item>
+        <item>车管所</item>
+        <item>加油站</item>
+        <item>公交站</item>
+        <item>银行</item>
+        <item>酒店</item>
+        <item>公厕</item>
+        <item>超市</item>
+    </string-array>
+    <string-array name="register_agreement">
+        <item>1、在本站注册的会员，必须遵守《互联网电子公告服务管理规定》，不得在本站发表诽谤他人，侵犯他人隐私，侵犯他人知识产权，传播病毒，政治言论，商业讯息等信息
+        </item>
+        <item>2、在所有在本站发表的文章，本站都具有最终编辑权，并且保留用于印刷或向第三方发表的权利，如果你的资料不齐全，我们将有权不作任何通知使用你在本站发布的作品。</item>
+        <item>3、在登记的过程中，您将选择注册名和密码，注册名的选择应遵守法律法规及社会公德。您必须对您的密码保密，您将对您注册名和密码下发生的所有活动承担责任。
+        </item>
+    </string-array>
+    <string-array name="brigade">
+        <item>园区大队</item>
+        <item>姑苏区大队</item>
+        <item>吴中区大队</item>
+        <item>相城区大队</item>
+        <item>新区大队</item>
+        <item>度假区大队</item>
+    </string-array>
+    <string-array name="description">
+        <item>同车道追尾前车</item>
+        <item>同向不同车道变更</item>
+        <item>倒车、掉头或溜车</item>
+        <item>驾入或驶出宅区、停车场、单位</item>
+        <item>逆向行驶或闯入单行道</item>
+        <item>违反让行规定或违反信号灯行驶</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="jycs">
+        <item>苏州市公安局第一看守所</item>
+        <item>苏州市公安局第二看守所</item>
+        <item>常熟市公安局看守所</item>
+        <item>张家港市公安局看守所</item>
+        <item>昆山市公安局监所管理大队一中队</item>
+        <item>吴江市公安局看守所</item>
+        <item>太仓市公安局看守所</item>
+    </string-array>
+    <string-array name="jycs_new">
+        <item>未羁押</item>
+        <item>苏州市公安局第一看守所</item>
+        <item>苏州市公安局第二看守所</item>
+        <item>苏州市公安局第三看守所</item>
+        <item>苏州市公安局第四看守所</item>
+        <item>苏州市吴江市看守所</item>
+        <item>常熟市看守所</item>
+        <item>张家港市看守所</item>
+        <item>昆山市看守所</item>
+        <item>太仓市看守所</item>
+    </string-array>
+    <string-array name="jycsid">
+        <item>320500130300</item>
+        <item>320500130400</item>
+        <item>320581130100</item>
+        <item>320582130100</item>
+        <item>320583130100</item>
+        <item>320584130100</item>
+        <item>320585130100</item>
+    </string-array>
+    <string-array name="jycsid_new">
+        <item></item>
+        <item>320500130300</item>
+        <item>320500130400</item>
+        <item>320500130500</item>
+        <item>320500131100</item>
+        <item>320584130100</item>
+        <item>320581130100</item>
+        <item>320582130100</item>
+        <item>320583130100</item>
+        <item>320585130100</item>
+    </string-array>
+    <string-array name="responbility">
+        <item>全责</item>
+        <item>同责</item>
+        <item>无责</item>
+    </string-array>
+    <string-array name="quikpay_del">
+        <item>当事人对道路交通事故事实及成因无争议</item>
+        <item>当事人对道路交通事故事实及成因存在争议</item>
+        <item>当事人对道路交通事故事实及成因存在争议，未选择自行协商处理或理赔服务中心远程定责，或对理赔服务中心远程定责有异议的。</item>
+    </string-array>
+</resources>
